@@ -88,6 +88,6 @@ Authorize a sub-distributor.
 ```bash
 curl -X POST http://localhost:8080/distributor-service/authorize/sub-distributor \
     -H "Content-Type: application/json" \
-    -d '{"from_distributor": "Distributor1", "to_distributor": "Distributor2", "region_code": "US"}'
+    -d '{"from_distributor": "Distributor1", "to_distributor": "Distributor2", "region_code": "IN"}'
 ```
 
